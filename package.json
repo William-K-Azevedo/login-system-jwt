@@ -12,8 +12,12 @@
     "@tanstack/react-location": "^3.7.4",
     "@tanstack/react-query": "^4.20.2",
     "axios": "^1.2.1",
+    "formik": "^2.2.9",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-toastify": "^9.1.1",
+    "universal-cookie": "^4.0.4",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",

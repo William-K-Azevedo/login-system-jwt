@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useQuery, useQueryClient, useMutation } from "@tanstack/react-query";
+import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
 import { IDados } from "./interfaces";
 import { Formik, Field, Form } from "formik";

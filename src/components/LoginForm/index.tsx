@@ -7,8 +7,6 @@ import * as Yup from "yup";
 import Cookies from "universal-cookie";
 
 const LoginForm = () => {
-  const [logado, setLogado] = useState(false);
-
   const cookies = new Cookies();
 
   const validationSchema = Yup.object().shape({
@@ -30,7 +28,7 @@ const LoginForm = () => {
         cookies.set("TOKEN", dados.data.token, {
           path: "/",
         });
-        window.location.href = "/auth";
+        // window.location.href = "/auth";
       },
     }
   );

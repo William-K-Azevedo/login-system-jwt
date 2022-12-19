@@ -5,7 +5,7 @@ import LoginForm from "../../components/LoginForm";
 
 const Login = () => {
   return (
-    <div className="flex flex-col md:flex-row">
+    <div className="flex flex-col md:flex-row mx-auto items-center justify-center  mt-12">
       <RegisterForm />
       <LoginForm />
     </div>
